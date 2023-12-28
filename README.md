@@ -1,7 +1,7 @@
 # ENG
 # AvatarFacial
-The repository has implemented face-to-face communication in a VR (Virtual Reality) world
-## Oculus SDK Custom Features
+The repository has implemented some novel interation design in VR. Using the SDK Movement.
+## Functions implemented
 
 I have used the official SDK for [Oculus Movements](https://github.com/oculus-samples/Unity-Movement) and added several features on top of it:
 
@@ -15,24 +15,17 @@ I have used the official SDK for [Oculus Movements](https://github.com/oculus-sa
 
 5. **Virtual Cinema**: Creating a virtual cinema within the VR world, providing users with a cinematic experience.
    
-The demo will be updated after the paper is published.
-# 中文
-# AvatarFacial 代码库
+~~The demo will be updated after the paper is published.~~
+u more model and asserts in the repository [AvatarFacial-0.0.1](https://github.com/zhaosheng-thu/AvatarFacial-0.0.1)
 
-这个代码库已经在虚拟现实（Virtual Reality，VR）世界中实现了面对面交流功能。
+## Update 2023.12.29
+### DEMOs:
 
-## 使用 Oculus SDK 的自定义功能
+1. VRFace2Face Chat: [view here]()
+2. MirrorPlayback: [view here](https://www.youtube.com/watch?v=puNORFzl48w)
+3. Virtual Theater: a immersive cinema, [view here](https://www.youtube.com/watch?v=2zthpene_yg)
 
-我使用了官方的[Oculus Movements SDK](https://github.com/oculus-samples/Unity-Movement)，并在此基础上添加了一些自定义功能：
+### More function:
 
-1. **数据采集**：此功能允许收集面部、身体和眼部运动数据，可以按指定帧率写入文件。
-
-2. **VR 世界回放**：它具备回放 VR 世界体验的能力，通过读取之前记录的数据并解码存储在 WAV 文件中的音频，可以详细回顾过去的体验，就像镜子中的反映一样。
-
-3. **面对面交流**：在 VR 世界内实现了面对面交流的功能，允许多个使用 VR 设备的用户在虚拟环境中互相交流。
-
-4. **面部表情微调**：通过修改面部建模中的混合形状（blendshapes）来微调面部表情，增强了面部表情的范围和精度。
-
-5. **虚拟影院**：在 VR 世界内创建了一个虚拟影院体验，为用户提供了身临其境的电影体验。
-
-这些增强功能使得 VR 体验更加强大和沉浸。关于本项目具体idea、实验设计和视频demo将会在文章投稿后更新。
+1. blendshape(AU) multiplier: multipliers that can change the amplitude of different facial blendshapes. the implementation of them varies a lot bet different emotions.
+2. Gaze Cursor: A cursor motivated by your gaze direction.
