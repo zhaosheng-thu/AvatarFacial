@@ -15,9 +15,6 @@ I have used the official SDK for [Oculus Movements](https://github.com/oculus-sa
 
 5. **Virtual Cinema**: Creating a virtual cinema within the VR world, providing users with a cinematic experience.
    
-~~The demo will be updated after the paper is published.~~
-u more model and asserts in the repository [AvatarFacial-0.0.1](https://github.com/zhaosheng-thu/AvatarFacial-0.0.1)
-
 ## Update 2023.12.29
 ### DEMOs:
 
